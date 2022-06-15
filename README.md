@@ -1,4 +1,29 @@
-# DOT-test
+# Tree Data
+
+# Instalasi
+```
+$ git clone https://github.com/keselyoleren/TREE_data.git
+$ cd TREE_data
+
+$ configure .env file
+
+# generate database
+$ paython src/manage.py makemigrations
+$ paython src/manage.py migrate
+
+# create super user
+$ paython src/manage.py createsuperuser
+
+# runserver
+$ paython src/manage.py runserver
+
+```
+
+
+# Api URl
+```
+# base_url/api/orang/ method [GET, CREATE, UPDATE, DELETE]
+```
 
 # struktur folder
 ```
