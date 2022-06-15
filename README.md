@@ -22,8 +22,16 @@ $ paython src/manage.py runserver
 
 # Api URl
 ```
-# base_url/api/orang/ method [GET, CREATE, UPDATE, DELETE]
+# http//:localhost:8000/api/orang/ method [GET, CREATE, UPDATE, DELETE]
 ```
+![vis data tree]('vis_tree.png')
+
+# visualisasi data
+```
+# http://localhost:8000/
+```
+
+
 
 # struktur folder
 ```
