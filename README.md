@@ -24,7 +24,7 @@ $ paython src/manage.py runserver
 ```
 # http//:localhost:8000/api/orang/ method [GET, CREATE, UPDATE, DELETE]
 ```
-![vis data tree]('vis_tree.png')
+![vis data tree](https://github.com/keselyoleren/TREE_data/blob/master/vis_tree.png)
 
 # visualisasi data
 ```
