@@ -24,12 +24,12 @@ $ paython src/manage.py runserver
 ```
 # http//:localhost:8000/api/orang/ method [GET, CREATE, UPDATE, DELETE]
 ```
-![vis data tree](https://github.com/keselyoleren/TREE_data/blob/master/vis_tree.png)
 
 # visualisasi data
 ```
 # http://localhost:8000/
 ```
+![vis data tree](https://github.com/keselyoleren/TREE_data/blob/master/vis_tree.png)
 
 
 
