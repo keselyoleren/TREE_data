@@ -23,6 +23,9 @@ class OrangSerialize(serializers.ModelSerializer):
 def generate_password():
     pass
 
+def edit_proses():
+    pass
+
 def generate_data():
     data = [
         {
