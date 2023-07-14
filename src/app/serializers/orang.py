@@ -20,3 +20,40 @@ class OrangSerialize(serializers.ModelSerializer):
         model = Orang
         fields = ('id', 'nama', 'jenis_kelamin', 'children')
 
+
+def generate_data():
+    data = [
+        {
+            "id": 1,
+            "nama": "Budi",
+            "jenis_kelamin": "Laki-laki",
+            "children": [
+                {
+                    "id": 2,
+                    "nama": "Bambang",
+                    "jenis_kelamin": "Laki-laki",
+                    "children": [
+                        {
+                            "id": 3,
+                            "nama": "Bambang",
+                            "jenis_kelamin": "Laki-laki",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "nama": "Bambang",
+                    "jenis_kelamin": "Laki-laki",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "nama": "Bambang",
+            "jenis_kelamin": "Laki-laki",
+            "children": []
+        }
+    ]
+    return data
