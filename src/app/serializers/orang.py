@@ -20,3 +20,5 @@ class OrangSerialize(serializers.ModelSerializer):
         model = Orang
         fields = ('id', 'nama', 'jenis_kelamin', 'children')
 
+def test_bot():
+    pass
