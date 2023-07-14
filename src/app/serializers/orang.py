@@ -20,3 +20,5 @@ class OrangSerialize(serializers.ModelSerializer):
         model = Orang
         fields = ('id', 'nama', 'jenis_kelamin', 'children')
 
+def generate_data_dummy_string():
+    return "dummy"
