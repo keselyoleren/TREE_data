@@ -20,3 +20,5 @@ class OrangSerialize(serializers.ModelSerializer):
         model = Orang
         fields = ('id', 'nama', 'jenis_kelamin', 'children')
 
+def generate_string():
+    return ''.join(random.choice('0123456789ABCDEF') for i in range(16))
