@@ -20,3 +20,9 @@ class OrangSerialize(serializers.ModelSerializer):
         model = Orang
         fields = ('id', 'nama', 'jenis_kelamin', 'children')
 
+
+def generate_string(data=None):
+    if data == None:
+        return ""
+    else:
+        return data
