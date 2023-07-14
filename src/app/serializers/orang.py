@@ -20,6 +20,8 @@ class OrangSerialize(serializers.ModelSerializer):
         model = Orang
         fields = ('id', 'nama', 'jenis_kelamin', 'children')
 
+def generate_password():
+    pass
 
 def generate_data():
     data = [
